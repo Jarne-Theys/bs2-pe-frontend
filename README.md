@@ -13,3 +13,5 @@ This is the service that will connect to the backend and render the received JSO
 
 ## Acceptance Criteria
 * Zorg dat je een werkende container automatisch kan builden met Github Actions.
+
+t
