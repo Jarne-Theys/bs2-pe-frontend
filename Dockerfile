@@ -1,8 +1,6 @@
 FROM node:alpine
-WORKDIR /app
-ENV PATH /app/node_modules/.bin:$PATH
-COPY package.json ./
-COPY package-lock.json ./
+WORKDIR /frontend
+COPY package*.json ./
 RUN npm i
-COPY . ./
+COPY . .
 CMD ["npm", "start"]
