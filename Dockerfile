@@ -3,5 +3,5 @@ WORKDIR /frontend
 COPY package*.json ./
 RUN npm i
 COPY . .
-EXPOSE 80
+EXPOSE 8080
 CMD ["npm", "start"]
